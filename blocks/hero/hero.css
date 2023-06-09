@@ -12,6 +12,7 @@ main .hero {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  padding: 0 60px 0 60px;
 }
 
 main .hero h1 {
