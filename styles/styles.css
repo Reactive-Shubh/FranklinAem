@@ -70,7 +70,12 @@ body.appear {
 header {
   height: var(--nav-height);
 }
-
+h1{
+ font-size: 40px;
+ line-height: 46px;
+ color: #3d4242;
+ margin: 0px 116px 0px;
+}
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
