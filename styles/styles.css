@@ -138,23 +138,20 @@ a:hover {
 
 /* buttons */
 a.button:any-link, button {
-  font-family: var(--body-font-family);
-  display: inline-block;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  border-radius: 30px;
+ font-size: 15px;
+ line-height: 18px;
+ padding: 14px 20px;
+ min-width: 150px;
+ color: #fff;
+ border-radius: 4px;
+ display: inline-block;
+ text-align: left;
+ text-decoration: none;
+ background: #e90649;
+ position: relative;
+ overflow: hidden;
+ padding: 14px 20px;
+ font-family: 'Klavika Regular Bold';
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -240,12 +237,6 @@ main .section {
     max-width: 1200px;
     margin: auto;
   }
-}
-.button-container{
-background: #e90649;
-position: relative;
-overflow: hidden;
-padding: 14px 20px;
 }
 /* section metadata */
 main .section.highlight {
