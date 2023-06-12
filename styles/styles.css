@@ -139,6 +139,7 @@ a:hover {
 /* buttons */
 a.button:any-link, button {
  font-size: 15px;
+ font-weight: 600;
  line-height: 18px;
  padding: 14px 20px;
  min-width: 150px;
@@ -151,7 +152,7 @@ a.button:any-link, button {
  position: relative;
  overflow: hidden;
  padding: 14px 20px;
- font-family: 'Klavika Regular Bold';
+ font-family: var(--body-font-family);
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
