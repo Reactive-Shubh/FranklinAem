@@ -13,6 +13,11 @@ footer .footer p {
   margin: 20;
 }
 
+footer .footer .subfooter-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .footer-headings div{
 display:flex;
 justify-content: flex-start;
