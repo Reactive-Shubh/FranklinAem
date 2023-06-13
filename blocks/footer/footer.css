@@ -13,7 +13,7 @@ footer .footer p {
   margin: 20;
 }
 
-footer .footer .subfooter-wrapper{
+footer .footer .subfooter{
     display: flex;
     justify-content: center;
 }
