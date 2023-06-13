@@ -1,0 +1,26 @@
+.copay>div {
+    display: flex;
+
+    >div:first-child {
+        width: 70%;
+    }
+
+    >div:last-child {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.video-wrapper>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fso>div {
+    display: flex;
+
+    >div:first-child {
+        width: 20%;
+    }
+}
