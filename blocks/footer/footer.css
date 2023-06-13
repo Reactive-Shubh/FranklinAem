@@ -12,3 +12,8 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+.footer-headings div{
+display:flex;
+justify-content: flex-start;
+}
