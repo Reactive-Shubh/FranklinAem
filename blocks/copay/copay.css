@@ -24,3 +24,49 @@
         width: 20%;
     }
 }
+
+.accordion .question {
+    position: relative;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    font-style: italic;
+    border: 2px solid #ccc;
+    border-radius: 7px / 7px;
+}
+
+.accordion .question::before {
+    content: '+';
+    color: black;
+    padding-right: 10px;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+
+.accordion .answer {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    color: brown;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.accordion .container.active .answer {
+    height: 140px;
+}
+
+.accordion .container.active .question::before {
+    content: '-';
+    font-size: 30px;
+}
