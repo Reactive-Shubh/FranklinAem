@@ -281,14 +281,3 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
-
-.popup div div {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: fixed;
-  top: 210px;
-  left: -4px;
-  z-index: 2;
-  cursor: pointer;
-}
