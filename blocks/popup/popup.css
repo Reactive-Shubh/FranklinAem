@@ -59,6 +59,7 @@
     background-color: #3d4242;
     color: #fff;
     height: 300px;
+    position: fixed;
     top: 139px;
     font-size: 12px;
     cursor: default;

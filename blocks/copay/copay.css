@@ -25,6 +25,12 @@
     }
 }
 
+.fso {
+    max-width: 100%;
+    margin-left: 5px;
+    background: #F7F7F7;
+}
+
 .accordion .question {
     position: relative;
     padding: 10px 10px;
@@ -76,9 +82,16 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.getstarted {
+    margin: 0px 40px;
+    padding-top: 7px;
 }
 
 .getstarted-wrapper {
     height: 140px;
-    width: 100%;
+    max-width: 100% !important;
+    background-color: #C4C6C6;
 }

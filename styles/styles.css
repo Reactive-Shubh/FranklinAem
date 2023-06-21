@@ -264,15 +264,15 @@ main img {
   padding: 64px 16px;
 } */
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
   }
-}
+} */
 
 @media (min-width: 900px) {
   .section>div {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
   }
 }
@@ -280,4 +280,8 @@ main img {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+.isi-content h2 {
+  text-decoration: underline;
 }
