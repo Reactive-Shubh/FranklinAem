@@ -97,5 +97,11 @@
 }
 
 .navimage-wrapper {
-    max-width: 100% !important
+    max-width: 100% !important;
+    height: 283px;
+}
+
+.navimage-wrapper img {
+    max-height: 285px;
+    width: 100%;
 }
