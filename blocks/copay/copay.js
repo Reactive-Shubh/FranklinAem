@@ -18,10 +18,25 @@ for (var i = 0; i < ab.length; i++) {
 // abc.classList.add("question");
 // bca.classList.add("answer");
 
-const accord = document.getElementsByClassName("container");
+const acc = document.getElementsByClassName("container");
 
-for (i = 0; i < accord.length; i++) {
-  accord[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-  });
+// for (i = 0; i < accord.length; i++) {
+//   accord[i].addEventListener("click", function () {
+//     this.classList.toggle("active");
+//   });
+// }
+
+var panels = document.getElementsByClassName("question");
+var i;
+var j;
+
+var handleAccordionClick = function () {
+  for (j = 0; j < panels.length; j++) {
+    acc[j].classList.remove("active");
+  }
+  this.classList.add("active");
+};
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = handleAccordionClick;
 }
