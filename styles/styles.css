@@ -54,13 +54,14 @@
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-size: 18px;
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  font-weight: 300;
 }
 
 body.appear {
@@ -97,7 +98,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--heading-font-size-xl)
+  font-size: 34px;
 }
 
 h3 {
@@ -284,4 +285,14 @@ main .section.highlight {
 
 .isi-content h2 {
   text-decoration: underline;
+  color: #e90649;
+  font-size: 35px;
+}
+
+.isi-content p {
+  font-size: 18px;
+}
+
+.isi-content li {
+  font-size: 18px;
 }
