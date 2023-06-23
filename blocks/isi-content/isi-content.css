@@ -1,0 +1,16 @@
+.isi-content-wrapper a {
+    background-color: white;
+    font-size: 30px;
+    border-radius: 45px;
+    border: 2px solid black;
+    padding: 18px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.isi-content-wrapper a:hover {
+    text-decoration: none;
+}

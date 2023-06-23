@@ -34,7 +34,7 @@ var handleAccordionClick = function () {
   for (j = 0; j < panels.length; j++) {
     acc[j].classList.remove("active");
   }
-  this.classList.add("active");
+  this.classList.toggle("active");
 };
 
 for (i = 0; i < acc.length; i++) {

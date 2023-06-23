@@ -296,3 +296,15 @@ main .section.highlight {
 .isi-content li {
   font-size: 18px;
 }
+
+.isi-content {
+  >div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.isi-content .isitext {
+  display: none;
+}
