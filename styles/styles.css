@@ -283,7 +283,7 @@ main .section.highlight {
   background-color: var(--highlight-background-color);
 }
 
-.isi-content h2 {
+/* .isi-content h2 {
   text-decoration: underline;
   color: #e90649;
   font-size: 35px;
@@ -307,4 +307,4 @@ main .section.highlight {
 
 .isi-content .isitext {
   display: none;
-}
+} */
