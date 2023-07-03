@@ -1,0 +1,145 @@
+body .epopup-wrapper {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgb(0 0 0 / 90%);
+    display: none;
+    height: 0;
+    overflow: hidden;
+}
+
+body.modal-open>#epopup-wrapper {
+    display: block;
+    overflow: inherit;
+    height: 100%;
+}
+
+#epopup-wrapper .modal-wrapper {
+    background: #fff;
+    color: black;
+    position: relative;
+    z-index: 100;
+    padding: 64px;
+    width: calc(100% - 40px);
+    margin: auto;
+    max-width: 680px;
+    margin-top: calc(10vh);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#epopup-wrapper .modal-wrapper .header {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#epopup-wrapper .modal-wrapper .description {
+    margin: 10px 0 40px;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+#epopup-wrapper .modal-wrapper .buttons a {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    padding: 10px 39px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.2s, color 0.2s;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+#epopup-wrapper .modal-wrapper .buttons a.primary {
+    background-color: #777;
+    color: white;
+}
+
+#epopup-wrapper .modal-wrapper buttons a.primary:hover {
+    background-color: #333;
+}
+
+#epopup-wrapper .modal-wrapper .buttons a.bare {
+    color: #777;
+}
+
+#epopup-wrapper .modal-wrapper .buttons a.bare:hover {
+    color: #333;
+}
+
+#epopup-wrapper .modal-wrapper .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+#epopup-wrapper .modal-wrapper .close-btn::before {
+    content: '';
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #777;
+    display: block;
+    transform-origin: center;
+    position: absolute;
+}
+
+#epopup-wrapper .modal-wrapper .close-btn::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #777;
+    display: block;
+    transform-origin: center;
+    position: absolute;
+}
+
+#epopup-wrapper .modal-wrapper .close-btn::before {
+    transform: rotate(45deg);
+}
+
+#epopup-wrapper .modal-wrapper .close-btn::after {
+    transform: rotate(-45deg);
+}
+
+#epopup-wrapper .modal-wrapper .close-btn:hover::before,
+#epopup-wrapper .modal-wrapper .close-btn:hover::after {
+    background-color: #333;
+}
+
+@media (max-width: 767px) {
+
+    #epopup-wrapper .modal-wrapper {
+        padding: 40px 20px 30px;
+    }
+
+    #epopup-wrapper .modal-wrapper .header {
+        padding-bottom: 10px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #epopup-wrapper .modal-wrapper .description {
+        margin: 10px 0 30px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #epopup-wrapper .modal-wrapper .close-btn::before,
+    #epopup-wrapper .modal-wrapper .close-btn::after {
+        width: 20px;
+    }
+}
+
+body.disable-scroll {
+    overflow: hidden;
+}

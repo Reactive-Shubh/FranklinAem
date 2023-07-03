@@ -11,6 +11,7 @@ import {
   waitForLCP,
   loadBlocks,
   loadCSS,
+  loadPopup,
 } from "./lib-franklin.js";
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
@@ -90,6 +91,11 @@ async function loadLazy(doc) {
 
   loadHeader(doc.querySelector("header"));
   loadFooter(doc.querySelector("footer"));
+
+  const popupDiv = document.createElement("div");
+  document.body.appendChild(popupDiv);
+  popupDiv.id = "epopup-wrapper";
+  loadPopup(doc.querySelector("#epopup-wrapper"));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   sampleRUM("lazy");
