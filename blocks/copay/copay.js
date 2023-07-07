@@ -46,9 +46,9 @@ var b = document.querySelector(".popup .parent2 a");
 
 a.setAttribute(
   "href",
-  "aemtestpoc--mspilotsandbox--pfizer.hlx.page/AemTest-POC-Shubham/testpage"
+  "https://aemtestpoc--mspilotsandbox--pfizer.hlx.page/AemTest-POC-Shubham/testpage"
 );
 b.setAttribute(
   "href",
-  "aemtestpoc--mspilotsandbox--pfizer.hlx.page/AemTest-POC-Shubham/testpage"
+  "https://aemtestpoc--mspilotsandbox--pfizer.hlx.page/AemTest-POC-Shubham/testpage"
 );
